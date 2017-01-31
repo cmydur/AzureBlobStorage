@@ -89,7 +89,7 @@ namespace AzureBlobStorage
 
             searchBar = new SearchBar
             {
-                Placeholder = "Enter search term",
+                Placeholder = "Enter search term"
                 ,
                 SearchCommand = new Command(() => { lbl.Text = "Result: " + searchBar.Text + " is what you asked for."; })
             };
